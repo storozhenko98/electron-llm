@@ -1,0 +1,63 @@
+/* Styles go here */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 400px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#output {
+    width: 100%; /* Full width of the container */
+    max-height: 200px; /* Maximum height before vertical scrolling */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    font-size: 16px; /* Adjust font size for readability */
+    font-family: 'Roboto Mono', monospace;
+    
+    padding: 8px; /* Add padding for aesthetics */
+    margin-top: 8px; /* Space between button and output */
+    white-space: pre-wrap; /* Ensures text wraps and preserves formatting */
+    word-wrap: break-word; /* Breaks long words to prevent horizontal scrolling */
+}
+#submit {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
